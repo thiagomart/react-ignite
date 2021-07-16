@@ -1,5 +1,12 @@
+import { RepositoryList } from './components/RepositoryList/RepositoryList'
 import './styles/global.scss'
 
+
 export function App() {
-    return <h1>hello react</h1>
+    return (
+        <>
+            <RepositoryList />
+        </>
+    
+    )
 }
